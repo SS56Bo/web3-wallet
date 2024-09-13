@@ -1,0 +1,6 @@
+:root {
+  background-color: rgb(1, 1, 27);
+  height: 100vh; /* Ensures the background takes up the entire screen */
+  margin: 0; /* Remove any default margin */
+  padding: 0; /* Remove any default padding */
+}

@@ -1,0 +1,28 @@
+.seed-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px; /* Space between Navbar and TextBoxComponent */
+}
+
+.textBox {
+  padding: 10px;
+  font-size: 16px;
+  width: 65ch; /* Adjust width to fit about 13 words (around 65 characters) */
+  margin-right: 10px; /* Space between the input box and the button */
+  cursor: pointer;
+}
+
+.generateButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.generateButton:hover {
+  background-color: #0056b3;
+}
